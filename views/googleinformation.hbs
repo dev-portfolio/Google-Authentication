@@ -1,0 +1,30 @@
+<br>
+
+<div class="card text-center">
+    <div class="card-header">
+<div class="card-body">
+    <h5 class="card-title">User </h5>
+    <p class="card-text"> <strong>{{user.name}}</strong>
+        <br>
+        <strong>{{user.email}}</strong>
+        </p>
+    <br>
+
+    <br>
+    <a type="submit" href="/lists" class="btn btn-danger">List of users</a>
+    <form method="post" action = "/inputjs">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Input Data</label>
+        <input type="text" class="form-control" name="inputjs" aria-describedby="emailHelp" placeholder="Enter text">
+        <br>
+        <button type="submit" class="btn btn-danger">Submit</button>
+
+    </div>
+    </form>
+    <a href="/auth/google" class="btn btn-danger">other Google account</a>
+
+</div>
+    </div>
+</div>
+
+
